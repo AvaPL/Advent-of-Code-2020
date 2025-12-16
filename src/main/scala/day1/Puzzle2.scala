@@ -25,7 +25,11 @@ private def findSumOfThree2020(expenses: List[Int]) = {
       case _ => None
     }
 
-  sortedExpenses.iterator.map { selectedExpense =>
-    loop(sortedExpenses, selectedExpense)
-  }.find(_.isDefined).get.get
+  sortedExpenses.iterator
+    .map { selectedExpense =>
+      loop(sortedExpenses, selectedExpense)
+    }
+    .find(_.isDefined)
+    .get
+    .get
 }
