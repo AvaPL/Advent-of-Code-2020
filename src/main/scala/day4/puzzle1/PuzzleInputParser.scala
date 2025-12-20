@@ -1,7 +1,7 @@
 package io.github.avapl
-package day4
+package day4.puzzle1
 
-import day4.PassportField.*
+import PassportField.*
 import util.InputParser
 import util.StringOps.*
 

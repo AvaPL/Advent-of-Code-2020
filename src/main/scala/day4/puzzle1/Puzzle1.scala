@@ -1,5 +1,5 @@
 package io.github.avapl
-package day4
+package day4.puzzle1
 
 @main def puzzle1(): Unit = {
   val passports = PuzzleInputParser.parsedInput

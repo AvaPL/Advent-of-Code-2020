@@ -1,8 +1,7 @@
 package io.github.avapl
+package day4.puzzle1
 
-package day4
-
-import day4.PassportField.CountryId
+import PassportField.CountryId
 
 enum PassportField {
   case BirthYear, IssueYear, ExpirationYear, Height, HairColor, EyeColor, PassportId, CountryId
